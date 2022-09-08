@@ -1,0 +1,11 @@
+.lista_gastos {
+  list-style: none;
+  padding: 0.5rem;
+  background-color: #272727;
+  border-radius: 12px;
+}
+
+.lista_gastos__retorno {
+  color: white;
+  text-align: center;
+}

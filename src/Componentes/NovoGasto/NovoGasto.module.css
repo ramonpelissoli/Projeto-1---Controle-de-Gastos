@@ -1,0 +1,38 @@
+.novo_gasto {
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .novo_gasto button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #272727;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .novo_gasto button:hover,
+  .novo_gasto button:active {
+    background-color: #272727;
+    border-color: #272727;
+  }
+  
+  .novo_gasto button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .novo_gasto button.alternative:hover,
+  .novo_gasto button.alternative:active {
+    background-color: #ddb3f8;
+  }

@@ -1,0 +1,39 @@
+.data_gasto {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color:white;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .data_gasto__mes {
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .data_gasto__mes::first-letter {
+    text-transform: uppercase;
+  }
+  
+  .data_gasto__ano {
+    color: black;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .data_gasto__dia {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
